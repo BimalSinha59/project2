@@ -1,0 +1,322 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e3e6e6;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-bar{
+    height: 50px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navlogo{
+    height: 45px;
+    width: 110px;
+    background-color: #0f1111;
+   
+    
+}
+.bacground-image{
+    height: 45px;
+    background-image:url("amazonlogo.png");
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.nav-adress{
+    height: 50px;
+    width: 70px;
+    
+    
+}
+
+.location-logo{
+    color: #ffffff;
+    margin-right: 2px;
+}
+#delivary-para{
+    padding-left: 13px;
+    padding-top: 10px;
+    color: #cccccc;
+    font-size: 12px;
+}
+#country{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.logo-country{
+    display: flex;
+}
+.selection-painal{
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selection-painal select{
+    height: 40px;
+    width: 50px;
+    border: none;
+    color: #0f1111;
+    background-color: #f2eeee;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 10px;
+}
+.selection-painal input{
+    height: 40px;
+    width: 545px;
+    border: none;
+    background-color: #ffffff;
+}
+.search-icon{
+    height: 40px;
+    width: 45px;
+    color: #0b0b0b;
+    background-color: rgb(254, 200, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search-icon:hover{
+    background-color:rgba(255, 182, 35, 0.963);
+}
+
+.account-deatails{
+    height: 45px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+   
+    
+}
+#line1{
+    font-size: 12px;
+   
+}
+#line2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.order-details{
+    height: 45px;
+    width: 78px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#order-line1{
+    font-size: 12px;
+}
+#order-line2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cart-logo{
+    height: 45px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+.itscart{
+    margin-left: 2px;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*/////////////// Second NavBAR//////////// */
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+
+.nav-bar2{
+    height: 40px;
+    background-color:#232f3e;
+    color: #ffffff;
+}
+.half-nav2{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 13px;
+}
+
+.menubar{
+    width: 60px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+/*///////// main section////////// */
+
+.hero-section{
+    height: 300px;
+    width: 100vw;
+    background-image: url("amazon_mainpagePhoto.jpg");
+    background-size: cover;
+}
+
+.box-row1{
+    height: 430px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pair1{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 15px;
+    margin-bottom: 40px; */
+
+    /* margin-bottom: 2rem; */
+    
+}
+.pair2{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-bottom: 25px; */
+}
+.box111{
+    width: 350px;
+    height: 100%;
+    padding: 20px 5px 13px 5px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+}
+h2{
+    font-size: 21px;
+    color: #0f1111;
+    margin-left: 28px;
+    margin-right: 27px;
+}
+
+.box111 span{
+    font-size: 12px;
+    columns: #0f1111;
+}
+
+.image-box{
+    width: 340px;
+    height: 80%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.morefind span{
+    margin-left: 28px;
+    font-size: 13px;
+    color: #2162a1;
+}
+
+.name{
+    width: 126px;
+}
+
+
+/* ///////////Footer Section///////////// */
+
+.foot-backtotop{
+    width: 100%;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 200;
+    background-color:#3b4d63;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1{
+    width: 100%;
+    height: 500px;
+    background-color:#232f3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footrow1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footrow2{
+    border-top: 1px solid #ffffff;
+}
+
+.foot-con1{
+    height: 290px;
+    width: 140px;
+    color: #dddddd;
+    font-size: 14px;
+}
+.foot-con1 a{
+    color: #dddddd;
+}
+
+.cont1head{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.con2{
+    width: 190px;
+}
+
+
+
+
